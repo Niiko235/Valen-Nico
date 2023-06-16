@@ -20,7 +20,12 @@ main h4{
 main p {
     margin-top: 3px;
 }
-#imagenes{
+
+.info p{
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+}
+.imagenes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,9 +39,9 @@ main p {
 
 .imagen img {
     height: 100%;
-    box-shadow: 0 0 .50em #01c4e7;
+    box-shadow: 0 0 .80em #01c4e7;
     border-style: solid;
     border-radius: 5px;
     border-width: 2cap;
-    border-color: #01c4e7;
+    border-color: #00a3c0;
 }
